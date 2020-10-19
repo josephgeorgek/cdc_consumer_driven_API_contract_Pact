@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms_employeedb
+    username: fx
+    password: password
+  jpa:
+    generate-ddl: true
+    hibernate.ddl-auto: update
